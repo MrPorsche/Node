@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="ILya$">
+        <meta name="description" content="Easily convert any set of images to PDFs">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../stylesheets/style.css">
+        <link rel="stylesheet" href="../stylesheets/index.css">
+        <title>IMG-to-PDF Converter</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1><a href="/">IMG2PDF</a></h1>
+            </header>
+            <article>
+                <p class="title">Easily convert your PNG and JPG images </p>
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <input type="file" name="images" id="file-upload" accept=".JPG, .PNG" multiple>
+                    <p><label for="file-upload">Select your file</label></p>
+                    <p id="selected-files"><code> </code> </p>
+                    <p><input type="submit" value="upload" /></p>
+                </form>
+            </article>
+            <footer>
+                <p><code>copyright &copy; IMG2PDF 2024</code></p>
+            </footer>
+        </main>
+
+
+
+        <script type="module">
+            import Sortable from '../javascripts/sortable.core.esm.js';
+
+            let list = document.querySelector('div');
+            let sort = Sortable.create(list)
+        </script>
+        <script src="../javascripts/script.js"></script>
+    </body>
+</html>

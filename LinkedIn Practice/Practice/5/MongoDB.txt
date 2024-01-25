@@ -1,0 +1,12 @@
+iisayyed3@gmail.com
+ILya8la$
+
+Cluster:
+LNKDN1NDJS1CHT
+
+user: mrporsch3
+pass: Mr.Por$ch3
+Admin: read and write to any database
+
+connection string:
+mongodb+srv://mrporsch3:Mr.Por$ch3@lnkdn1ndjs1cht.ew8wpe2.mongodb.net/node-chit?retryWrites=true&w=majority

@@ -1,0 +1,12 @@
+body {
+  background-color: #FAD8D8;
+}
+body details {
+  font-size: 1.5rem;
+}
+body details summary {
+  cursor: pointer;
+}
+body details p {
+  text-indent: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
